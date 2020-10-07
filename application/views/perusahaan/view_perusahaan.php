@@ -38,13 +38,12 @@
                                                 <a data-kode="<?php echo $d->kode_perusahaan; ?>" class="btn btn-outline-secondary btn-sm detail" title="View">
                                                     <i class="mdi mdi-eye"></i>
                                                 </a>
-                                                <a href="#" class="btn btn-outline-secondary btn-sm delete" data-href="<?php echo base_url(); ?>perusahaan/edit_perusahaan/<?php echo $d->kode_perusahaan; ?>" title="Delete">
-                                                    <a class="btn btn-outline-secondary btn-sm" title="Edit">
-                                                        <i class="mdi mdi-pencil"></i>
-                                                    </a>
-                                                    <a href="#" class="btn btn-outline-secondary btn-sm delete" data-href="<?php echo base_url(); ?>perusahaan/hapus_perusahaan/<?php echo $d->kode_perusahaan; ?>" title="Delete">
-                                                        <i class="mdi mdi-trash-can"></i>
-                                                    </a>
+                                                <a class="btn btn-outline-secondary btn-sm" title="Edit">
+                                                    <i class="mdi mdi-pencil"></i>
+                                                </a>
+                                                <a href="#" class="btn btn-outline-secondary btn-sm delete" data-href="<?php echo base_url(); ?>perusahaan/hapus_perusahaan/<?php echo $d->kode_perusahaan; ?>" title="Delete">
+                                                    <i class="mdi mdi-trash-can"></i>
+                                                </a>
                                             </div>
                                         </td>
                                     </tr>
